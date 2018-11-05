@@ -1,0 +1,33 @@
+converting py to ipynb
+open new notebook
+%load 'filename'.py
+
+
+
+conda activate py27
+
+conda deactivate
+
+
+pwd   print working directory
+
+import urllib.request
+url = "https://www.mof.go.jp/jgbs/topics/bond/10year_inflation-indexed/bei20181019.pdf"
+urllib.request.urlretrieve("https://www.mof.go.jp/jgbs/topics/bond/10year_inflation-indexed/bei20181019.pdf", "bei20181019.pdf") 
+
+
+os.chdir("C:/Users/Shin/Desktop/temp")
+
+
+%load nb_author_id.py
+
+%whos   or %who
+
+
+def add():
+    a=1+1
+    return a
+
+
+numpy.shape(features_test_transformed)
+
